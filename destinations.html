@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!--Header section starts-->
+  <header class="header"data-aos="fade-down">
+    
+    <section class="flex">
+
+      <a href="home.html" class="logo">Travellio</a>
+
+      <nav class="navbar">
+        <a href="home.html" class="home-link" onclick=" ">home</a>
+        <a href="about.html" class="about-link" onclick=" ">about</a>
+        <a href="tours.html" class="tours-link" onclick=" ">tours</a>
+        <a href="destinations.html" class="destinations-link" onclick=" ">destinations</a>
+        <a href="contact.html" class="contact-link" onclick=" ">contact</a>   </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+    
+    </section>
+
+  </header>
+  <!--Header section ends-->
+
+  <div class="container destinations">
+
+    <h1 class="heading" data-aos="zoom-out">destinations</h1>
+ 
+    <section class="grid">
+ 
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-1.jpg" alt="">
+          <h3><span>istanbul</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-2.jpg" alt="">
+          <h3><span>california</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-3.jpg" alt="">
+          <h3><span>london</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-4.jpg" alt="">
+          <h3><span>morocco</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-5.jpg" alt="">
+          <h3><span>new york</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-6.jpg" alt="">
+          <h3><span>paris</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-7.jpg" alt="">
+          <h3><span>barcelona</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-8.jpg" alt="">
+          <h3><span>sydney</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+          <img src="images/destination-9.jpg" alt="">
+          <h3><span>tokyo</span></h3>
+       </div>
+       <div class="box" data-aos="zoom-in">
+         <img src="images/amsterdam.jpg" alt="">
+         <h3><span>amsterdam</span></h3>
+      </div>
+      <div class="box" data-aos="zoom-in">
+         <img src="images/dubai.jpg" alt="">
+         <h3><span>dubai</span></h3>
+      </div>
+      <div class="box" data-aos="zoom-in">
+         <img src="images/maldives.jpg" alt="">
+         <h3><span>maldives</span></h3>
+      </div>
+
+    </section>
+ 
+ </div>
+ 
+ <!-- destinations section ends -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+      max: 25,
+      speed: 400,
+      glare: false,   
+      "max-glare":1, 
+    });
+  </script>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

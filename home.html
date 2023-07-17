@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travellio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!--Header section starts-->
+  <header class="header" data-aos="fade-down">
+
+    <section class="flex">
+      <a href="home.html" class="logo">Travellio</a>
+      <nav class="navbar">
+        <a href="home.html" class="home-link" onclick=" ">home</a>
+        <a href="about.html" class="about-link" onclick=" ">about</a>
+        <a href="tours.html" class="tours-link" onclick=" ">tours</a>
+        <a href="destinations.html" class="destinations-link" onclick=" ">destinations</a>
+        <a href="contact.html" class="contact-link" onclick=" ">contact</a>
+
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+  </header>
+  <!--Header section ends-->
+
+<!--Home section starts here-->
+
+<div class="container home" data-aos="zoom-out">
+
+
+  <section class="flex">
+
+    <form action="" method="post">
+      <h3>search your tour</h3>
+      <p>where to</p>
+      <input type="text" name="location" required maxlength="50" placeholder="enter tour location" class="box">
+      <p>when to</p>
+      <input type="date" name="date" class="box" required>
+      <p>How many</p>
+      <input type="number" name="guests" min="1" max="10" placeholder="number of guests" maxlength="2" class="box">
+      <input type="submit" value="search tour" name="search" class="btn">
+
+
+
+    </form>
+
+
+  </section>
+
+
+</div>
+
+
+<!--Home section ends here-->
+
+
+
+
+ 
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/script.js">
+    
+  </script>
+</body>
+</html>
