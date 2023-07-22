@@ -683,6 +683,15 @@ section{
 }
 @media (max-width:768px){
   
+  .home,
+  .about,
+  .reviews,
+  .tours,
+  .destinations,
+  .contact {
+    background-size: cover; /* or background-size: contain; */
+  }
+ 
 
   #menu-btn{
     display: inline-block;
